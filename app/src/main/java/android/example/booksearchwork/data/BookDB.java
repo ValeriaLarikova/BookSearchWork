@@ -1,4 +1,7 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data;
+
+import android.example.booksearchwork.data.BookDao;
+import android.example.booksearchwork.data.entities.BookEntity;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

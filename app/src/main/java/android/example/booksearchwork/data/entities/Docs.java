@@ -1,4 +1,4 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data.entities;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,9 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data;
 
 
 import android.content.Context;
+import android.example.booksearchwork.data.BookDB;
+import android.example.booksearchwork.data.entities.BookEntity;
 
 import java.util.List;
 
@@ -13,7 +15,7 @@ public class LocalDataSource {
     final BookDB dataBase1;
 
     public  LocalDataSource (Context context) {
-        dataBase1 = Room.databaseBuilder(context,BookDB.class,"book_list").build();
+        dataBase1 = Room.databaseBuilder(context, BookDB.class,"activity_book_list").build();
 
     }
 

@@ -1,7 +1,8 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.activities;
 
 import android.content.Intent;
 
+import android.example.booksearchwork.R;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(getApplicationContext(), MainActivity2.class);
+                intent.setClass(getApplicationContext(), TopAuthorsActivity.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(getApplicationContext(), MainActivity3.class);
+                intent.setClass(getApplicationContext(), TopBooksActivity.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(getApplicationContext(), MainActivity4.class);
+                intent.setClass(getApplicationContext(), CitatesActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(getApplicationContext(), MainSearch.class);
+                intent.setClass(getApplicationContext(), MainSearchActivity.class);
                 startActivity(intent);
             }
         });

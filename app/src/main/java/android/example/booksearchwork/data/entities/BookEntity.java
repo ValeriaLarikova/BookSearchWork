@@ -1,4 +1,4 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data.entities;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

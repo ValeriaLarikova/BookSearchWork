@@ -1,6 +1,7 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data.entities;
 
-import java.util.ArrayList;
+import android.example.booksearchwork.data.entities.Docs;
+
 import java.util.List;
 public class Root
 {

@@ -13,13 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PreferencesListActivity"></activity>
-        <activity android:name=".MainList" />
-        <activity android:name=".MainSearch" />
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.PreferencesListActivity"></activity>
+        <activity android:name=".activities.MainListActivity" />
+        <activity android:name=".activities.MainSearchActivity" />
+        <activity android:name=".activities.CitatesActivity" />
+        <activity android:name=".activities.TopBooksActivity" />
+        <activity android:name=".activities.TopAuthorsActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

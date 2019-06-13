@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/hm2"
-        tools:context=".MainActivity4">
+        tools:context=".activities.CitatesActivity">
 
         <TextView
             android:id="@+id/aut"

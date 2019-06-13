@@ -1,4 +1,6 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data;
+
+import android.example.booksearchwork.data.entities.Root;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

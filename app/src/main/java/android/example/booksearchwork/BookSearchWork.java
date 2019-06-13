@@ -1,6 +1,7 @@
 package android.example.booksearchwork;
 
 import android.app.Application;
+import android.example.booksearchwork.data.Repository;
 
 public class BookSearchWork extends Application {
 

@@ -1,7 +1,9 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.adapters;
 
 import android.content.Context;
-import android.util.Log;
+import android.example.booksearchwork.data.entities.BookEntity;
+import android.example.booksearchwork.R;
+import android.example.booksearchwork.activities.MainListActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,7 +66,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.NumberViewHold
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((MainList)context).saveToPreferences(bookEntities.get(position));
+                ((MainListActivity)context).saveToPreferences(bookEntities.get(position));
             }
         });
         holder.bind(bookEntities,position);

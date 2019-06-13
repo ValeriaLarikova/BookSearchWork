@@ -1,5 +1,7 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data;
 
+import android.example.booksearchwork.data.BookService;
+import android.example.booksearchwork.data.entities.Root;
 import android.util.Log;
 
 import java.io.IOException;

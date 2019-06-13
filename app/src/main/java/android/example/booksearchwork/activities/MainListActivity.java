@@ -1,11 +1,10 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.activities;
 
-import android.content.Intent;
-
+import android.example.booksearchwork.adapters.BookAdapter;
+import android.example.booksearchwork.data.entities.BookEntity;
+import android.example.booksearchwork.viewmodels.MainViewModel;
+import android.example.booksearchwork.R;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.LiveData;
@@ -19,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainList extends AppCompatActivity implements Observer<List<BookEntity>> {
+public class MainListActivity extends AppCompatActivity implements Observer<List<BookEntity>> {
 
     private BookAdapter mAdapter;
 
@@ -35,7 +34,7 @@ public class MainList extends AppCompatActivity implements Observer<List<BookEnt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.book_list);
+        setContentView(R.layout.activity_book_list);
 
         title_value = getIntent().getStringExtra(getString(R.string.title));
 

@@ -1,4 +1,4 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.LiveData;
@@ -8,9 +8,11 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.example.booksearchwork.adapters.BookAdapter;
+import android.example.booksearchwork.data.entities.BookEntity;
+import android.example.booksearchwork.viewmodels.PreferencesListViewModel;
+import android.example.booksearchwork.R;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;

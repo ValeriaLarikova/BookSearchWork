@@ -1,11 +1,10 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.data;
 
 import android.content.Context;
-import android.util.Log;
+import android.example.booksearchwork.data.entities.BookEntity;
+import android.example.booksearchwork.data.entities.Root;
 
 import androidx.lifecycle.LiveData;
-import androidx.work.OneTimeWorkRequest;
-import androidx.work.WorkManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,7 @@ import java.util.concurrent.Executors;
 
 public class Repository {
 
-    private  LocalDataSource localDataSource;
+    private LocalDataSource localDataSource;
     private RemoteDataSource remoteDataSource;
 
     public Repository(Context context) {

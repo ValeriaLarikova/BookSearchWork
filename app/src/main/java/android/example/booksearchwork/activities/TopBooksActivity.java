@@ -1,20 +1,18 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.activities;
 
-import android.content.Intent;
-
+import android.example.booksearchwork.R;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
+public class TopBooksActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_top_books);
     }
     @Override
     public void onClick(View v) {

@@ -1,7 +1,9 @@
-package android.example.booksearchwork;
+package android.example.booksearchwork.viewmodels;
 
 import android.content.Context;
-import android.util.Log;
+import android.example.booksearchwork.BookSearchWork;
+import android.example.booksearchwork.data.Repository;
+import android.example.booksearchwork.data.entities.BookEntity;
 
 import java.util.List;
 import androidx.lifecycle.LiveData;
