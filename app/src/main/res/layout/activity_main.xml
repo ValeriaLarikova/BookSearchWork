@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/real"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="15dp"
+        android:text="Парадокс чтения: оно уводит нас от реальности, чтобы наполнить реальность
+        смыслом."
+        android:textSize="25dp"
+        android:textAlignment="textEnd"
+        android:textStyle="italic|bold"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/button_act1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Мировые писатели"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="25dp"
+        android:minWidth="150dp"/>
+
+    <Button
+        android:id="@+id/button_act2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Цитаты из книг "
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="205dp"
+        android:minWidth="150dp" />
+
+    <Button
+        android:id="@+id/button_act3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Топ 10 известных книг"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="90dp"
+        android:minWidth="150dp" />
+
+    <Button
+        android:id="@+id/button_act4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Поиск по названию"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="25dp" />
+
+    <Button
+        android:id="@+id/button_act5"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/preferences_btn"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="205dp"
+        android:onClick="onPreferencesBtnClick"/>
+
+</RelativeLayout>

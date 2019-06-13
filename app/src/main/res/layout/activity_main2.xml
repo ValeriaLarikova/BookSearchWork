@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flow"
+        tools:context=".MainActivity2">
+
+        <TextView
+            android:id="@+id/aut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_centerHorizontal="true"
+            android:text="Топ 10 мировых писателей"
+            android:textSize="30dp"
+            android:textStyle="italic|bold"
+            android:textColor="#4B0082"/>
+        <TextView
+            android:id="@+id/aut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="   Мы легче замечаем те изменения, которые несут новые технологии, иногда не задумываясь о том, что за изобретениями стоят какие-то идеи. Природу назревающих перемен первыми почувствовали те, кто чаще всего опережает свое время, — писатели."/>
+        <TextView
+            android:id="@+id/aut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut1"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:text="   Они формулировали новые идеи, а также создали интеллектуальное и эмоциональное обоснование будущего."/>
+        <TextView
+            android:id="@+id/aut3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut2"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text = "   Вашему вниманию представлен список из 10 имен тех, кто определил ум и душу современности."/>
+        <TextView
+            android:id="@+id/aut4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut3"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Габриэль Гарсиа Маркес"/>
+        <ImageView
+            android:id="@+id/imag"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/gm"
+            android:layout_below ="@id/aut4"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Лауреат Нобелевской премии, представитель литературного направления 'магический реализм'.
+Мировое признание к нему пришло в 1967 году с выходом романа 'Сто лет одиночества'.
+Маркес создал иную реальность, в которой мистическое и рациональное не противоречат друг другу.
+Эта картина сформировала новое представление о действительности у милионов читателей."/>
+
+        <TextView
+            android:id="@+id/aut6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut5"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Александр Солженицин"/>
+        <ImageView
+            android:id="@+id/imag1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sl"
+            android:layout_below ="@id/aut6"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag1"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Лаурат Нобелевской премии. После выхода в 1974 году 'Архипелаг ГУЛАГ' о репрессиях в СССР, был депортирован.
+Его книги стали обвинением, которое невозможно было проигнорировать. За их чтение можно было получить до 8 лет лишения свободы в СССР.
+После прочтения его книг невозможно было говорить о прогрессе, основаном на социалистических идеях."/>
+        <TextView
+            android:id="@+id/aut8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut7"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Тони Моррисон"/>
+        <ImageView
+            android:id="@+id/imag2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/tm"
+            android:layout_below ="@id/aut8"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag2"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Стала первой чернокожей женщиной - лауреатом Нобелевской премии. Её роман
+'Самые голубые глаза' стал одним из знаменитых литературных событий 1970 года, где главной героиней
+стала женщина-негритянка. Моррисон совместила в своем творчестве темы женской зависимости и угнетения чернокожих.
+После Моррисон западный мир не мог не признать, что у женщин и мужчин, черных и белых разные языки и все они равноценны."/>
+        <TextView
+            android:id="@+id/aut10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut9"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Салман Рушди"/>
+        <ImageView
+            android:id="@+id/imag3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ru"
+            android:layout_below ="@id/aut10"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag3"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Рушди попытался интерпритировать восточные ценности с помощью западной
+естетики, что заставило западный мир осознать, как далеки Запад и Восток. Роман 'Сатанические стихи'
+совсем не идеологический роман, а скорее остроумная интеллектуальная игра в духе Борхеса. Он вызвал
+гнев многих миллионов подлинных мусульман. Он доказал, что слово  по-прежнему имеет значение,
+особенно если это слово сатиры. Рушди  стал одним из главных борцов за свободу слова и призывал к
+реформированию ислама."/>
+        <TextView
+            android:id="@+id/aut12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut11"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Милан Кундера"/>
+        <ImageView
+            android:id="@+id/imag4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mi"
+            android:layout_below ="@id/aut12"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag4"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="В своих произведениях Кундера совмещал иронию и пессимизм. В одном из своих
+самых знаменитых произведений - 'Невыносимая легкость бытия' - он с невиданной прежде ясностью показал, что
+ несовершенство человеческой природы никак не связано ни с повседневной политикой, ни с формой
+ государственного устройства. После Кундеры стало невозможно говорить о тоталитаризме как
+ исключительном источнике подавления личности в ХХ веке."/>
+
+        <TextView
+            android:id="@+id/aut14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut13"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Орхан Памук"/>
+        <ImageView
+            android:id="@+id/imag5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/po"
+            android:layout_below ="@id/aut14"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag5"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Его история, особенная меланхолия, присущая его обитателям, и сложные
+взаимоотношения между восточными и западными культурами на протяжении почти 30 лет были главными
+героями его книг. Стремясь быть европейцем и турком одновременно, Памук пытался говорить с
+соотечественниками на языке западных представлений об истории.Памук помог Европе понять, что
+'европейскость' Турции — и, наверное, всего Востока — сильно преувеличена. "/>
+
+        <TextView
+            android:id="@+id/aut16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut15"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Мишель Уэльбек"/>
+        <ImageView
+            android:id="@+id/imag6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ms"
+            android:layout_below ="@id/aut16"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag6"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Уэльбек стал голосом поколения одиноких и обеспеченных жителей западных
+городов, написав книги, преисполненные пессимизма. Его романы, объединенные скепсисом и печалью.
+Он  стал первым популярным писателем, выразившим недовольство обществом массового потребления и
+тотальной стандартизацией. Прочитавший книги Уэльбека неизбежно осознает, что материальное
+благополучие в мире социальной гармонии ни в коей мере не приближает индивидуальное счастье."/>
+
+        <TextView
+            android:id="@+id/aut18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut17"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Джоан Роулинг"/>
+        <ImageView
+            android:id="@+id/imag7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dg"
+            android:layout_below ="@id/aut18"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag7"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Её романы о Гарри Поттере неоднократно назывались книгами года.
+Роулинг снова сделала литературу предметом всеобщего интереса, и, что самое главное, ее сказки о
+Гарри Поттере вернули детям интерес к чтению во времена, когда казалось, что компьютерные игры
+окончательно победили книги. Мы снова много читаем — благодаря сказке. Но, кажется, мы только их и
+хотим читать. Прочитав эти сказки, невозможно говорить о том, что прос­тые истины, о которых
+рассказывается в ее книгах, устарели."/>
+
+        <TextView
+            android:id="@+id/aut20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut19"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Умберто Эко"/>
+        <ImageView
+            android:id="@+id/imag8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ue"
+            android:layout_below ="@id/aut20"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag8"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Написал десятки книг, посвященных средневековой эстетике. В 1980 году
+издал свой самый популярный роман 'Имя розы' и дебютировал какпрозаик. Ироничный Эко внятно сказал,
+что история не кончается никогда и, более того, развивается вне каких бы то ни было законов. Он говорил,
+не стоит слепо верить в прогресс — зачастую нам кажется, что мы движемся вперед, а на самом деле
+находимся на пороге нового Средневековья."/>
+
+        <TextView
+            android:id="@+id/aut22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut21"
+            android:layout_marginLeft="5dp"
+            android:textColor="#BA55D3"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Карлос Кастанеда"/>
+        <ImageView
+            android:id="@+id/imag9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/kr"
+            android:layout_below ="@id/aut22"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/aut23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag9"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Книги Кастанеды стали новым священным писанием для миллионов почитателей,
+готовых к тому, чтобы воспринимать реальность иррационально. Ошеломляющий эффект книг Кастанеды
+заключался в том, что он не только описывал «путь воина», но и объяснял технологии продвижения к
+истинному знанию. Мир, по Кастанеде, непостижим и не может быть описан человеческим языком, а
+человек знания — тот, кто готов действовать не раздумывая. Нужно жить поступками, а не мыслями о
+них и признавать существование множественных реальностей."/>
+
+    </RelativeLayout>
+</ScrollView>

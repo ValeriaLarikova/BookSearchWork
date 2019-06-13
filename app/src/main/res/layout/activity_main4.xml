@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hm2"
+        tools:context=".MainActivity4">
+
+        <TextView
+            android:id="@+id/aut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:text="«Есть преступления хуже, чем сжигать книги. Например - не читать их.»"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:textColor="#8B008B"/>
+        <TextView
+            android:id="@+id/aut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="   «- Что наша жизнь? - Игра, не больше…». Но книги делают наш внутренний
+мир богаче и дороже, чем мы можем себе представить. Книга – что о ней можно сказать с первого раза?
+Да в принципе, ничего особенного, если не врать. Чтобы что-то сказать о книге, нужно ее прочесть."/>
+        <TextView
+            android:id="@+id/aut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut1"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="18dp"
+            android:text="   Книги сопровождают нас всю жизнь. Мы познаем мир и развиваемся благодаря
+литературе. Она открывает нам те неизведанные грани нашей жизни, которые нам самостоятельно никогда
+не познать. Литература – это своеобразный путеводитель по жизни. Благодаря ей, мы имеем уникальную
+возможность учиться на ошибках других людей, анализировать разные жизненные ситуации и делать выводы,
+которые в дальнейшем можем использовать для создания благополучной жизни." />
+        <TextView
+            android:id="@+id/aut3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text = "   Вашему вниманию представлены несколько цитат из книг, которые сопровождают
+в повседневной жизни, и после которых вам, возможно, захочется прочесть ту или инную книгу."/>
+
+        <ImageView
+            android:id="@+id/imag"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/book2"
+            android:layout_below ="@id/aut3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/autt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/imag"
+            android:layout_marginLeft="5dp"
+            android:text=" Эрих Мария Ремарк.«Жизнь взаймы»"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+        <TextView
+            android:id="@+id/aut4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/autt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Кто хочет удержать – тот теряет. Кто готов с улыбкой отпустить – того
+стараются удержать.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/auty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut4"
+            android:layout_marginLeft="5dp"
+            android:text="Марк Твен"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+
+        <TextView
+            android:id="@+id/aut5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/auty"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Лет через 20 вы больше будете жалеть о том, что вы не сделали, чем о том,
+что сделали. Поэтому поднимайте якоря и уплывайте из тихой гавани. Ловите попутный ветер в свои паруса.
+Пользуйтесь. Мечтайте. Делайте открытия.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/autp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut5"
+            android:layout_marginLeft="5dp"
+            android:text="Макс Фрай «Сказки старого Вильнюса»"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+
+        <TextView
+            android:id="@+id/aut6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/autp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Она благополучно одолела ещё две конфеты, запила их целым литром зеленого
+чая, торжественно пообещала себе не прикасаться к сладкому ещё лет двадцать и уснула, черезвычайно
+довольная неизвестно чем. Вероятно собой и жизнью в целом.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/autpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut6"
+            android:layout_marginLeft="5dp"
+            android:text="Пауло Коэльо"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+
+        <TextView
+            android:id="@+id/aut7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/autpp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Если ты способен видеть прекрасное, то только потому, что носишь прекрасное
+внутри себя. Ибо мир подобен зеркалу, в котором каждый видит собственное отражение.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/autpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut7"
+            android:layout_marginLeft="5dp"
+            android:text="Бернард Вербер «Империя ангелов»"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+
+        <TextView
+            android:id="@+id/aut8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/autpo"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Чтобы узнать цену года, спроси студента, ко торый провалился на экзамене.
+Чтобы узнать цену месяца, спроси мать, родившую преждевременно. Чтобы узнать цену недели, спроси
+редактора еженедельника. Чтобы узнать цену часа, спроси влюбленного, ждущего свою возлюбленную.
+Чтобы узнать цену минуты, спроси опоздавшего на поезд. Чтобы узнать цену секунды, спроси того, кто
+потерял близкого человека в автомобильной катастрофе. Чтобы узнать цену одной тысячной секунды, спроси
+серебряного медалиста Олимпийских игр.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/autv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/aut8"
+            android:layout_marginLeft="5dp"
+            android:text="Эрих Мария Ремарк «Время жить и время умирать»"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000080"/>
+
+        <TextView
+            android:id="@+id/aut9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below ="@id/autv"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="«Удивительно, как легко отказываешься от того, с чем вчера, думалось,
+ невозможно расстаться.»"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+</ScrollView>
