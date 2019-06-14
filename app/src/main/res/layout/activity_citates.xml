@@ -18,7 +18,7 @@
             android:layout_marginTop="50px"
             android:textAlignment="textEnd"
             android:layout_marginRight="5dp"
-            android:text="«Есть преступления хуже, чем сжигать книги. Например - не читать их.»"
+            android:text="«There are worse offenses than burning books. For example - do not read them.»"
             android:textSize="25dp"
             android:textStyle="italic|bold"
             android:textColor="#8B008B"/>
@@ -31,9 +31,9 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="   «- Что наша жизнь? - Игра, не больше…». Но книги делают наш внутренний
-мир богаче и дороже, чем мы можем себе представить. Книга – что о ней можно сказать с первого раза?
-Да в принципе, ничего особенного, если не врать. Чтобы что-то сказать о книге, нужно ее прочесть."/>
+            android:text="   «- What is our life? “A game, no more ...» But books make our inner
+the world is richer and more expensive than we can imagine. The book - what about it can be said from the first time?
+Yes, in principle, nothing special, if not lie. To say something about the book, you need to read it."/>
         <TextView
             android:id="@+id/aut2"
             android:layout_width="wrap_content"
@@ -43,11 +43,11 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textSize="18dp"
-            android:text="   Книги сопровождают нас всю жизнь. Мы познаем мир и развиваемся благодаря
-литературе. Она открывает нам те неизведанные грани нашей жизни, которые нам самостоятельно никогда
-не познать. Литература – это своеобразный путеводитель по жизни. Благодаря ей, мы имеем уникальную
-возможность учиться на ошибках других людей, анализировать разные жизненные ситуации и делать выводы,
-которые в дальнейшем можем использовать для создания благополучной жизни." />
+            android:text="   Books accompany us all my life. We get to know the world and develop thanks to
+literature. She reveals to us those unexplored facets of our life that we have never been by ourselves
+not to know. Literature is a unique guide to life. Thanks to her, we have a unique
+the opportunity to learn from the mistakes of other people, analyze different life situations and draw conclusions,
+which can later be used to create a prosperous life." />
         <TextView
             android:id="@+id/aut3"
             android:layout_width="wrap_content"
@@ -57,8 +57,8 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text = "   Вашему вниманию представлены несколько цитат из книг, которые сопровождают
-в повседневной жизни, и после которых вам, возможно, захочется прочесть ту или инную книгу."/>
+            android:text = "   Your attention is a few quotes from books that accompany
+in everyday life, and after which you may want to read this or that book."/>
 
         <ImageView
             android:id="@+id/imag"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/imag"
             android:layout_marginLeft="5dp"
-            android:text=" Эрих Мария Ремарк.«Жизнь взаймы»"
+            android:text=" Erich Maria Remarque. «Borrowed Life»"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -85,8 +85,8 @@
             android:layout_below ="@id/autt"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Кто хочет удержать – тот теряет. Кто готов с улыбкой отпустить – того
-стараются удержать.»"
+            android:text="«Who wants to keep - he loses. Who is ready to let go with a smile - they
+will try to hold.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/aut4"
             android:layout_marginLeft="5dp"
-            android:text="Марк Твен"
+            android:text="Mark Twain"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -108,9 +108,9 @@
             android:layout_below ="@id/auty"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Лет через 20 вы больше будете жалеть о том, что вы не сделали, чем о том,
-что сделали. Поэтому поднимайте якоря и уплывайте из тихой гавани. Ловите попутный ветер в свои паруса.
-Пользуйтесь. Мечтайте. Делайте открытия.»"
+            android:text="«In 20 years you will regret more about what you did not do, than about
+what they did Therefore, raise the anchor and swim away from the safe haven. Catch the tailwind in your sails.
+Use. Dream it. Make discoveries.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/aut5"
             android:layout_marginLeft="5dp"
-            android:text="Макс Фрай «Сказки старого Вильнюса»"
+            android:text="Max Fry «Tales of the old Vilnius»"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -132,9 +132,9 @@
             android:layout_below ="@id/autp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Она благополучно одолела ещё две конфеты, запила их целым литром зеленого
-чая, торжественно пообещала себе не прикасаться к сладкому ещё лет двадцать и уснула, черезвычайно
-довольная неизвестно чем. Вероятно собой и жизнью в целом.»"
+            android:text="«She successfully overcame two more candies, washed down them with a whole liter of green
+tea, solemnly promised myself not to touch the sweet even twenty years and fell asleep, extremely
+rather unknown than. Probably by itself and life in general.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 
@@ -144,7 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/aut6"
             android:layout_marginLeft="5dp"
-            android:text="Пауло Коэльо"
+            android:text="Paulo Coelho"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -156,8 +156,8 @@
             android:layout_below ="@id/autpp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Если ты способен видеть прекрасное, то только потому, что носишь прекрасное
-внутри себя. Ибо мир подобен зеркалу, в котором каждый видит собственное отражение.»"
+            android:text="«If you are able to see the beautiful, it is only because you wear the beautiful
+inside yourself. For the world is like a mirror in which everyone sees his own reflection.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 
@@ -167,7 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/aut7"
             android:layout_marginLeft="5dp"
-            android:text="Бернард Вербер «Империя ангелов»"
+            android:text="Bernard Werber «Empire of Angels»"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -179,12 +179,12 @@
             android:layout_below ="@id/autpo"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Чтобы узнать цену года, спроси студента, ко торый провалился на экзамене.
-Чтобы узнать цену месяца, спроси мать, родившую преждевременно. Чтобы узнать цену недели, спроси
-редактора еженедельника. Чтобы узнать цену часа, спроси влюбленного, ждущего свою возлюбленную.
-Чтобы узнать цену минуты, спроси опоздавшего на поезд. Чтобы узнать цену секунды, спроси того, кто
-потерял близкого человека в автомобильной катастрофе. Чтобы узнать цену одной тысячной секунды, спроси
-серебряного медалиста Олимпийских игр.»"
+            android:text="«To find out the price of the year, ask the student who failed the exam.
+To find out the price of the month, ask the mother who gave birth prematurely. To find out the price of the week, ask
+weekly editor. To find out the price of an hour, ask a lover who is waiting for his beloved.
+To find out the price of a minute, ask the train late. To find out the price of a second, ask who
+lost a loved one in a car accident. To find out the price of one thousandth of a second, ask
+Olympic silver medalist.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 
@@ -194,7 +194,7 @@
             android:layout_height="wrap_content"
             android:layout_below ="@id/aut8"
             android:layout_marginLeft="5dp"
-            android:text="Эрих Мария Ремарк «Время жить и время умирать»"
+            android:text="Erich Maria Remarque «Time to live and time to die»"
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="#000080"/>
@@ -206,8 +206,8 @@
             android:layout_below ="@id/autv"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:text="«Удивительно, как легко отказываешься от того, с чем вчера, думалось,
- невозможно расстаться.»"
+            android:text="«It's amazing how easy it is to give up with what yesterday, it was thought,
+  impossible to part.»"
             android:textSize="20dp"
             android:textColor="#000000"/>
 

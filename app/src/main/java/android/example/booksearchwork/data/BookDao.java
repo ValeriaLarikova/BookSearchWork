@@ -21,4 +21,8 @@ public interface BookDao {
 
     @Query("SELECT * FROM `TableOfBooks` WHERE `isInPreferences`;")
     LiveData<List<BookEntity>> getPreferencesBookList();
+
+    @Query("DELETE FROM `TableOfBooks`")
+
+    void deleteAll ();
 }

@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50px"
             android:layout_centerHorizontal="true"
-            android:text="Топ 10 мировых писателей"
+            android:text="Top 10 World Writers"
             android:textSize="30dp"
             android:textStyle="italic|bold"
             android:textColor="#4B0082"/>
@@ -29,7 +29,9 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="   Мы легче замечаем те изменения, которые несут новые технологии, иногда не задумываясь о том, что за изобретениями стоят какие-то идеи. Природу назревающих перемен первыми почувствовали те, кто чаще всего опережает свое время, — писатели."/>
+            android:text="   We notice more easily the changes that new technologies bring, sometimes
+without thinking that there are some ideas behind the inventions. The nature of emerging changes first
+felt by those who are most often ahead of their time - the writers."/>
         <TextView
             android:id="@+id/aut2"
             android:layout_width="wrap_content"
@@ -38,7 +40,8 @@
             android:textColor="#000000"
             android:layout_marginLeft="5dp"
             android:textSize="18dp"
-            android:text="   Они формулировали новые идеи, а также создали интеллектуальное и эмоциональное обоснование будущего."/>
+            android:text="   They formulated new ideas and also created intellectual and
+emotional rationale for the future."/>
         <TextView
             android:id="@+id/aut3"
             android:layout_width="wrap_content"
@@ -47,7 +50,8 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text = "   Вашему вниманию представлен список из 10 имен тех, кто определил ум и душу современности."/>
+            android:text = "   A list of 10 names of those who defined the mind and
+soul of modernity."/>
         <TextView
             android:id="@+id/aut4"
             android:layout_width="wrap_content"
@@ -57,7 +61,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Габриэль Гарсиа Маркес"/>
+            android:text="Gabriel Garcia Marquez"/>
         <ImageView
             android:id="@+id/imag"
             android:layout_width="200dp"
@@ -73,10 +77,10 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Лауреат Нобелевской премии, представитель литературного направления 'магический реализм'.
-Мировое признание к нему пришло в 1967 году с выходом романа 'Сто лет одиночества'.
-Маркес создал иную реальность, в которой мистическое и рациональное не противоречат друг другу.
-Эта картина сформировала новое представление о действительности у милионов читателей."/>
+            android:text="Winner of the Nobel Prize, a representative of the literary trend 'magic realism'.
+World recognition came to him in 1967 with the release of the novel 'One Hundred Years of Solitude'.
+Marquez created a different reality in which the mystical and rational do not contradict each other.
+This picture has formed a new idea of reality among millions of readers."/>
 
         <TextView
             android:id="@+id/aut6"
@@ -87,7 +91,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Александр Солженицин"/>
+            android:text="Alexander Solzhenitsyn"/>
         <ImageView
             android:id="@+id/imag1"
             android:layout_width="200dp"
@@ -103,9 +107,9 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Лаурат Нобелевской премии. После выхода в 1974 году 'Архипелаг ГУЛАГ' о репрессиях в СССР, был депортирован.
-Его книги стали обвинением, которое невозможно было проигнорировать. За их чтение можно было получить до 8 лет лишения свободы в СССР.
-После прочтения его книг невозможно было говорить о прогрессе, основаном на социалистических идеях."/>
+            android:text="Laurat Nobel Prize. After the release of the GULAG Archipelago in 1974 about repressions in the USSR, it was deported.
+His books became an accusation that was impossible to ignore. For their reading it was possible to get up to 8 years in prison in the USSR.
+After reading his books, it was impossible to talk about progress based on socialist ideas."/>
         <TextView
             android:id="@+id/aut8"
             android:layout_width="wrap_content"
@@ -115,7 +119,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Тони Моррисон"/>
+            android:text="Tony morrison"/>
         <ImageView
             android:id="@+id/imag2"
             android:layout_width="200dp"
@@ -131,10 +135,11 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Стала первой чернокожей женщиной - лауреатом Нобелевской премии. Её роман
-'Самые голубые глаза' стал одним из знаменитых литературных событий 1970 года, где главной героиней
-стала женщина-негритянка. Моррисон совместила в своем творчестве темы женской зависимости и угнетения чернокожих.
-После Моррисон западный мир не мог не признать, что у женщин и мужчин, черных и белых разные языки и все они равноценны."/>
+            android:text="She became the first black woman to win the Nobel Prize. Her novel
+'The bluest eyes' became one of the famous literary events of 1970, where the main character
+became a black woman. Morrison combined in his work the themes of female dependence and the oppression of blacks.
+After Morrison, the Western world could not help but recognize that women and men, black and white, have different languages and
+they are all equal."/>
         <TextView
             android:id="@+id/aut10"
             android:layout_width="wrap_content"
@@ -144,7 +149,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Салман Рушди"/>
+            android:text="Salman Rushdie"/>
         <ImageView
             android:id="@+id/imag3"
             android:layout_width="200dp"
@@ -160,12 +165,12 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Рушди попытался интерпритировать восточные ценности с помощью западной
-естетики, что заставило западный мир осознать, как далеки Запад и Восток. Роман 'Сатанические стихи'
-совсем не идеологический роман, а скорее остроумная интеллектуальная игра в духе Борхеса. Он вызвал
-гнев многих миллионов подлинных мусульман. Он доказал, что слово  по-прежнему имеет значение,
-особенно если это слово сатиры. Рушди  стал одним из главных борцов за свободу слова и призывал к
-реформированию ислама."/>
+            android:text="Rushdie tried to interpret Eastern values using Western
+aesthetics that made the Western world realize how far West and East are. The novel 'Satanic Verses'
+not an ideological novel at all, but rather an ingenious intellectual game in the spirit of Borges. He summoned
+the wrath of many millions of authentic muslims. He proved that the word still matters,
+especially if it's a word of satire. Rushdie became one of the main freedom fighters and called for
+reforming Islam."/>
         <TextView
             android:id="@+id/aut12"
             android:layout_width="wrap_content"
@@ -175,7 +180,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Милан Кундера"/>
+            android:text="Milan Kundera"/>
         <ImageView
             android:id="@+id/imag4"
             android:layout_width="200dp"
@@ -191,11 +196,11 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="В своих произведениях Кундера совмещал иронию и пессимизм. В одном из своих
-самых знаменитых произведений - 'Невыносимая легкость бытия' - он с невиданной прежде ясностью показал, что
- несовершенство человеческой природы никак не связано ни с повседневной политикой, ни с формой
- государственного устройства. После Кундеры стало невозможно говорить о тоталитаризме как
- исключительном источнике подавления личности в ХХ веке."/>
+            android:text="In his works, Kundera combined irony and pessimism. In one of his
+the most famous works - 'The Unbearable Lightness of Being' - he showed with unprecedented clarity that
+  the imperfection of human nature has nothing to do with daily politics or form
+  government structure. After Kundera, it became impossible to talk about totalitarianism as
+  The ultimate source of repression in the 20th century."/>
 
         <TextView
             android:id="@+id/aut14"
@@ -206,7 +211,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Орхан Памук"/>
+            android:text="Orhan Pamuk"/>
         <ImageView
             android:id="@+id/imag5"
             android:layout_width="200dp"
@@ -222,11 +227,11 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Его история, особенная меланхолия, присущая его обитателям, и сложные
-взаимоотношения между восточными и западными культурами на протяжении почти 30 лет были главными
-героями его книг. Стремясь быть европейцем и турком одновременно, Памук пытался говорить с
-соотечественниками на языке западных представлений об истории.Памук помог Европе понять, что
-'европейскость' Турции — и, наверное, всего Востока — сильно преувеличена. "/>
+            android:text="His story is a special melancholy inherent in its inhabitants, and complex
+the relationship between eastern and western cultures for nearly 30 years was the main
+the heroes of his books. Seeking to be European and Turkish at the same time, Pamuk tried to talk with
+compatriots in the language of Western ideas about history. Pamuk helped Europe to understand that
+Turkey's 'Europeanness' - and, probably, of the whole East - is greatly exaggerated. "/>
 
         <TextView
             android:id="@+id/aut16"
@@ -237,7 +242,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Мишель Уэльбек"/>
+            android:text="Michelle Welbeck"/>
         <ImageView
             android:id="@+id/imag6"
             android:layout_width="200dp"
@@ -253,11 +258,11 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Уэльбек стал голосом поколения одиноких и обеспеченных жителей западных
-городов, написав книги, преисполненные пессимизма. Его романы, объединенные скепсисом и печалью.
-Он  стал первым популярным писателем, выразившим недовольство обществом массового потребления и
-тотальной стандартизацией. Прочитавший книги Уэльбека неизбежно осознает, что материальное
-благополучие в мире социальной гармонии ни в коей мере не приближает индивидуальное счастье."/>
+            android:text="Welbeck became the voice of a generation of lonely and wealthy residents of Western
+cities, writing books full of pessimism. His novels, combined with skepticism and sadness.
+He became the first popular writer to express dissatisfaction with a mass consumer society and
+total standardization. Having read the books of Welbeck inevitably realizes that the material
+well-being in the world of social harmony does not in any way approximate individual happiness."/>
 
         <TextView
             android:id="@+id/aut18"
@@ -268,7 +273,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Джоан Роулинг"/>
+            android:text="Joanne Rowling"/>
         <ImageView
             android:id="@+id/imag7"
             android:layout_width="200dp"
@@ -284,12 +289,12 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Её романы о Гарри Поттере неоднократно назывались книгами года.
-Роулинг снова сделала литературу предметом всеобщего интереса, и, что самое главное, ее сказки о
-Гарри Поттере вернули детям интерес к чтению во времена, когда казалось, что компьютерные игры
-окончательно победили книги. Мы снова много читаем — благодаря сказке. Но, кажется, мы только их и
-хотим читать. Прочитав эти сказки, невозможно говорить о том, что прос­тые истины, о которых
-рассказывается в ее книгах, устарели."/>
+            android:text="Her Harry Potter novels were repeatedly called the books of the year.
+Rowling again made literature a subject of general interest, and, most importantly, her tales of
+Harry Potter returned to the children interest in reading at a time when it seemed that computer games
+finally won the book. We read a lot again - thanks to the tale. But it seems that we are only them.
+want to read. After reading these tales, it is impossible to say that simple truths about which
+told in her books are outdated."/>
 
         <TextView
             android:id="@+id/aut20"
@@ -300,7 +305,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Умберто Эко"/>
+            android:text="Umberto Eco"/>
         <ImageView
             android:id="@+id/imag8"
             android:layout_width="200dp"
@@ -316,11 +321,11 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Написал десятки книг, посвященных средневековой эстетике. В 1980 году
-издал свой самый популярный роман 'Имя розы' и дебютировал какпрозаик. Ироничный Эко внятно сказал,
-что история не кончается никогда и, более того, развивается вне каких бы то ни было законов. Он говорил,
-не стоит слепо верить в прогресс — зачастую нам кажется, что мы движемся вперед, а на самом деле
-находимся на пороге нового Средневековья."/>
+            android:text="He wrote dozens of books on medieval aesthetics. In 1980
+published his most popular novel, The Name of the Rose, and debuted as a proz. Ironic eco distinctly said
+that history never ends and, moreover, develops without any laws whatsoever. He said,
+Do not blindly believe in progress - it often seems to us that we are moving forward, but in fact
+we are on the threshold of the new Middle Ages."/>
 
         <TextView
             android:id="@+id/aut22"
@@ -331,7 +336,7 @@
             android:textColor="#BA55D3"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Карлос Кастанеда"/>
+            android:text="Carlos Castaneda"/>
         <ImageView
             android:id="@+id/imag9"
             android:layout_width="200dp"
@@ -347,12 +352,12 @@
             android:layout_marginLeft="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Книги Кастанеды стали новым священным писанием для миллионов почитателей,
-готовых к тому, чтобы воспринимать реальность иррационально. Ошеломляющий эффект книг Кастанеды
-заключался в том, что он не только описывал «путь воина», но и объяснял технологии продвижения к
-истинному знанию. Мир, по Кастанеде, непостижим и не может быть описан человеческим языком, а
-человек знания — тот, кто готов действовать не раздумывая. Нужно жить поступками, а не мыслями о
-них и признавать существование множественных реальностей."/>
+            android:text="The books of Castaneda have become a new scripture for millions of admirers,
+ready to accept reality irrationally. The stunning effect of Castaneda’s books
+lay in the fact that he not only described the “path of the warrior”, but also explained the technologies of progress towards
+true knowledge. The world, according to Castaneda, is incomprehensible and cannot be described by human language, but
+A man of knowledge is one who is ready to act without hesitation. One must live by deeds, not by thoughts of
+them and recognize the existence of multiple realities."/>
 
     </RelativeLayout>
 </ScrollView>

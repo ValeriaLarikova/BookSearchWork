@@ -19,7 +19,10 @@ public class LocalDataSource {
 
     }
 
-    public  void  storeBookList(List<BookEntity> root) {
+    public  void  storeBookList(List<BookEntity> root, boolean deleteOld) {
+        if (deleteOld) {
+            dataBase1.bookDao().deleteAll();
+        }
         dataBase1.bookDao().insertBookList(root);
     }
 

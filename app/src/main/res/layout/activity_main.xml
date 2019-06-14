@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50px"
         android:layout_marginRight="15dp"
-        android:text="Парадокс чтения: оно уводит нас от реальности, чтобы наполнить реальность
-        смыслом."
+        android:text="Paradox of reading: it leads us away from reality in order to fill reality
+with meaning."
         android:textSize="25dp"
         android:textAlignment="textEnd"
         android:textStyle="italic|bold"
@@ -24,7 +24,8 @@
         android:id="@+id/button_act1"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Мировые писатели"
+        android:text="World Writers"
+        android:background="@drawable/grad"
         android:layout_marginTop="250dp"
         android:layout_marginLeft="25dp"
         android:minWidth="150dp"/>
@@ -33,7 +34,8 @@
         android:id="@+id/button_act2"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Цитаты из книг "
+        android:text="Quotes from books"
+        android:background="@drawable/grad"
         android:layout_marginTop="250dp"
         android:layout_marginLeft="205dp"
         android:minWidth="150dp" />
@@ -42,7 +44,8 @@
         android:id="@+id/button_act3"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Топ 10 известных книг"
+        android:text="Top 10 famous books"
+        android:background="@drawable/grad"
         android:layout_marginTop="330dp"
         android:layout_marginLeft="90dp"
         android:minWidth="150dp" />
@@ -51,7 +54,8 @@
         android:id="@+id/button_act4"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Поиск по названию"
+        android:text="Search by name"
+        android:background="@drawable/grad"
         android:layout_marginTop="410dp"
         android:layout_marginLeft="25dp" />
 
@@ -60,6 +64,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:text="@string/preferences_btn"
+        android:background="@drawable/grad"
         android:layout_marginTop="410dp"
         android:layout_marginLeft="205dp"
         android:onClick="onPreferencesBtnClick"/>

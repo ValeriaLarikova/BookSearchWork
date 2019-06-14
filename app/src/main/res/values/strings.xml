@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">BookSearchWork</string>
     <string name="title">title</string>
-    <string name="preferences_btn">Избранные</string>
+    <string name="preferences_btn">Favorites</string>
 </resources>

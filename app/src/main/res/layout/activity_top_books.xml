@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50px"
             android:layout_centerHorizontal="true"
-            android:text="Топ 10 самых читаемых книг"
+            android:text="Top 10 most readable books"
             android:textSize="25dp"
             android:textStyle="italic|bold"
             android:textColor="#008080"/>
@@ -30,11 +30,11 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="   Мир книг – прекрасный и удивительный. За каждой обложкой скрывается
-неповторимая история – со своими героями, событиями и атмосферой. Читая книги, мы
-погружаемся в этот мир, радуемся или печалимся вместе с персонажами, сочувствуем им или
-выражаем свое осуждение. Для многих людей чтение – самый лучший вид отдыха, который
-расслабляет и успокаивает."/>
+            android:text="   The world of books is beautiful and amazing. Behind every cover
+A unique story - with its heroes, events and atmosphere. Reading books, we
+immerse yourself in this world, rejoice or grieve with the characters, sympathize with them or
+Express our condemnation. For many people, reading is the best kind of recreation that
+relaxes and soothes."/>
         <TextView
             android:id="@+id/aut2"
             android:layout_width="wrap_content"
@@ -44,10 +44,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textSize="18dp"
-            android:text="   В книгах содержится огромный опыт и знания других людей, масса идей,
-методик, стратегий. Книги  позволяют найти ответы на многие вопросы, они вдохновляют и мотивируют на
-улучшения себя и достижения больших результатов. Чтение улучшает воображение и творческие способност,
-психическое и физическое здоровье, мы учимся сопереживать и набираемся опыта." />
+            android:text="   The books contain vast experience and knowledge of other people, a lot of ideas,
+techniques, strategies. Books allow you to find answers to many questions, they inspire and motivate
+improve yourself and achieve great results. Reading improves imagination and creativity.
+mental and physical health, we learn to empathize and gain experience." />
         <TextView
             android:id="@+id/aut3"
             android:layout_width="wrap_content"
@@ -57,8 +57,8 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text = "   Вашему вниманию представлен список из 10 самых читаемых книг в мире,
-которые заставят вас посмотреть на все, что происходит вокруг вас, инными глазами. "/>
+            android:text = "   A list of the 10 most widely read books in the world is presented to your attention.
+that make you look at everything that happens around you, with different eyes. "/>
         <TextView
             android:id="@+id/aut4"
             android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Гарри Поттер (Джоан Роулинг)"/>
+            android:text="Harry Potter (JK Rowling)"/>
         <ImageView
             android:id="@+id/imag"
             android:layout_width="200dp"
@@ -85,10 +85,10 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Книги Джоан Роулинг носят звание самых читаемых книг среди молодежи. А
-повествуют они о мальчике-сироте, которому от рождения были даны магические способности. Борьба со
-злом, дружба и любовь — все присутствует в книгах о Гарри Поттере.
-За 20 лет вышло около 400 миллионов экземпляров."/>
+            android:text="Books JK Rowling are the title of the most widely read books among young people. BUT
+they are about an orphan boy who was given magical abilities from birth. Fight against
+evil, friendship and love - everything is present in the Harry Potter books.
+Over 20 years, about 400 million copies have been released."/>
 
         <TextView
             android:id="@+id/aut6"
@@ -99,7 +99,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Алхимик (Пауло Коэльо)"/>
+            android:text="Alchemist (Paulo Coelho)"/>
         <ImageView
             android:id="@+id/imag1"
             android:layout_width="200dp"
@@ -116,12 +116,12 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Первая книга, из-за которой мир смог поближе познакомиться с Пауло Коэльо.
-История повествует о странствиях пастуха Сантьяго, который отправился на поиски египетских сокровищ,
-приснившихся ему во сне. На его пути — множество испытаний и трудностей, но он их успешно преодолевает
-и обретает самое главное сокровище — жизненный опыт.
-Книга была переведена на 67 языков мира, ее прочитали жители 117 стран мира, а тираж в 65
-миллионов экземпляров разошелся мгновенно."/>
+            android:text="The first book, because of which the world could get to know Paulo Coelho better.
+The story tells about the wanderings of the shepherd Santiago, who went in search of Egyptian treasure,
+dreamed of him in a dream. On his way - many trials and difficulties, but he successfully overcomes them.
+and gains the most important treasure - life experience.
+The book was translated into 67 languages of the world, it was read by residents of 117 countries of the world, and a circulation of 65
+million copies sold instantly."/>
         <TextView
             android:id="@+id/aut8"
             android:layout_width="wrap_content"
@@ -131,7 +131,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Жизнь взаймы (Эрих Мария Ремарк)"/>
+            android:text="Borrowed Life (Erich Maria Remarque)"/>
         <ImageView
             android:id="@+id/imag2"
             android:layout_width="200dp"
@@ -148,11 +148,11 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Это прекрасная и трогательная история об одиночестве и большой любви,
-смерти и ценности жизни. Трогательная история молодой девушки Лилиан, которая по причине своей тяжелой
-болезни живет в санатории. Ее жизнь скучна и однообразна, она живет по расписанию, единственная
-радость – это ночные посиделки в баре с такими же, как она. Но все меняется, когда приезжает
-навестить своего друга гонщик Клерфэ… "/>
+            android:text="This is a beautiful and touching story of loneliness and great love,
+death and life values. The touching story of a young girl Lilian, who, because of her severe
+disease lives in a sanatorium. Her life is boring and monotonous, she lives on a schedule, the only
+joy - this is a nightly sitting in a bar with the same as she. But everything changes when it comes
+visit your friend racer Clerfe ..."/>
         <TextView
             android:id="@+id/aut10"
             android:layout_width="wrap_content"
@@ -162,7 +162,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Сто лет одиночества (Габриэль Гарсиа Маркес)"/>
+            android:text="One Hundred Years of Solitude (Gabriel Garcia Marquez)"/>
         <ImageView
             android:id="@+id/imag3"
             android:layout_width="200dp"
@@ -179,11 +179,11 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Одна из величайших книг ХХ века. Странная, поэтичная, причудливая история
-города Макондо, затерянного в джунглях, – от сотворения до упадка. История рода Буэндиа – семьи, в
-которой чудеса столь повседневны, что на них даже не обращают внимания. Клан Буэндиа порождает
-святых и грешников, революционеров, героев и предателей, лихих авантюристов. Здесь рады гостям, но
-зачастую равнодушны к самым близким. Вы поймете, как важна любящая семья в жизни каждого человека."/>
+            android:text="One of the greatest books of the twentieth century. Strange, poetic, bizarre story
+the city of Macondo, lost in the jungle, from creation to decline. The history of the genus Buendía - family, in
+which miracles are so everyday that they do not even pay attention. Clan Buendia begets
+saints and sinners, revolutionaries, heroes and traitors, dashing adventurers. Guests are welcome here, but
+often indifferent to the closest. You will understand how important a loving family in the life of every person."/>
         <TextView
             android:id="@+id/aut12"
             android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Маленький принц (Антуан де Сент-Экзюпери"/>
+            android:text="The Little Prince (Antoine de Saint-Exupery)"/>
         <ImageView
             android:id="@+id/imag4"
             android:layout_width="200dp"
@@ -210,9 +210,9 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Повзрослев, люди начинают думать, что они утратили что-то ценное и важное.
-И, для того чтобы это найти, нам необходимо читать и перечитывать такие книги, как «Маленький принц»,
-уметь понимать заложенный в них смысл, а потом пытаться воплощать его в жизнь."/>
+            android:text="Growing up, people begin to think that they have lost something valuable and important.
+And in order to find it, we need to read and reread books such as The Little Prince,
+be able to understand the meaning embedded in them, and then try to bring it to life."/>
 
         <TextView
             android:id="@+id/aut14"
@@ -223,7 +223,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Над пропастью во ржи (Джером Дэвид Сэлинджер)"/>
+            android:text="The Catcher in the Rye (Jerome David Salinger)"/>
         <ImageView
             android:id="@+id/imag5"
             android:layout_width="200dp"
@@ -240,9 +240,9 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Книга о том, как непросто живется подростку. И неважно, в какое время.
-Бунт, максимализм, одиночество и страх непонимания — через все это проходил каждый человек, именно
-поэтому произведение стало близко и понятно миллионам читателей по всему миру. "/>
+            android:text="The book is about how difficult it is for a teenager. And no matter what time.
+Riot, maximalism, loneliness and the fear of misunderstanding - every person went through all this, namely
+therefore, the work has become close and understandable to millions of readers around the world."/>
 
         <TextView
             android:id="@+id/aut16"
@@ -253,7 +253,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="451° по Фаренгейту (Рэй Бредбери)"/>
+            android:text="451 ° Fahrenheit (Ray Bradbury)"/>
         <ImageView
             android:id="@+id/imag6"
             android:layout_width="200dp"
@@ -270,12 +270,12 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="451° по Фаренгейту — роман, принесший писателю мировую известность.
-451° по Фаренгейту — температура, при которой воспламеняется и горит бумага. Философская антиутопия
-Рэя Брэдбери рисует беспросветную картину развития постиндустриального общества; это мир будущего, в
-котором все письменные издания безжалостно уничтожаются специальным отрядом пожарных, а хранение книг
-преследуется по закону, интерактивное телевидение успешно служит всеобщему оболваниванию, карательная
-психиатрия решительно разбирается с редкими инакомыслящими..."/>
+            android:text="451 ° Fahrenheit - a novel that brought world-famous writer.
+451 ° Fahrenheit - the temperature at which the paper ignites and burns. Philosophical dystopia
+Ray Bradbury paints a bleak picture of the development of a post-industrial society; this is the world of the future,
+which all written editions are ruthlessly destroyed by a special fire brigade, and the storage of books
+prosecuted by law, interactive television successfully serves the universal dupe, punitive
+psychiatry is resolutely dealt with rare dissenters ..."/>
 
         <TextView
             android:id="@+id/aut18"
@@ -286,7 +286,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Алые паруса (Александр Грин)"/>
+            android:text="Scarlet Sails (Alexander Green)"/>
         <ImageView
             android:id="@+id/imag7"
             android:layout_width="200dp"
@@ -303,9 +303,9 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Прекрасная, романтическая, с детства всем знакомая сказка про Ассоль, Грея
-и непоколебимую веру в мечту с простой и ясной моралью – любое чудо может случиться, если ты сам его
-совершишь. Для себя или для того, кого любишь."/>
+            android:text="Beautiful, romantic, since childhood, the familiar fairy tale about Assol, Gray
+and unshakable faith in the dream with a simple and clear morality - any miracle can happen if you yourself
+will commit. For yourself or for someone you love."/>
 
         <TextView
             android:id="@+id/aut20"
@@ -316,7 +316,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Портрет Дориана Грея (Оскар Уайльд)"/>
+            android:text="Portrait of Dorian Gray (Oscar Wilde)"/>
         <ImageView
             android:id="@+id/imag8"
             android:layout_width="200dp"
@@ -333,12 +333,12 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="Этот роман - самая успешная и самая скандальная из всех созданных Уайльдом
-книг - неподвластен времени и по праву считается шедевром английской литературы. Драматичная,
- парадоксальная, завораживающе-интригующая история Дориана Грея, ставшего жертвой собственного
- желания вечной жизни, несмотря на прошедшие с момента опубликования романа сто двадцать лет, до
- сих пор остается магнетически притягательной как для читателей, так и для режиссеров. Появляются
- все новые и новые постановки и экранизации этого романа."/>
+            android:text="This novel is the most successful and most scandalous of all created by Wilde.
+Books - timeless and is considered to be a masterpiece of English literature. Dramatic
+  the paradoxical, fascinating and intriguing story of Dorian Gray, who fell victim to his own
+  desires of eternal life, despite the one hundred and twenty years that have passed since the publication of the novel, until
+  still remains magnetically attractive for both readers and directors. Appear
+  all new and new productions and screen versions of this novel."/>
 
         <TextView
             android:id="@+id/aut22"
@@ -349,7 +349,7 @@
             android:textColor="#191970"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Фауст (Гете)"/>
+            android:text="Faust (Goethe)"/>
         <ImageView
             android:id="@+id/imag9"
             android:layout_width="200dp"
@@ -366,11 +366,11 @@
             android:layout_marginRight="5dp"
             android:textColor="#000000"
             android:textSize="18dp"
-            android:text="В основе произведения лежит известный немецкий миф о докторе Иоганне
-Фаусте, который совершил сделку с дьяволом, обменяв свою душу на мирские удовольствия и вечную
-молодость. Согласно условиям соглашения Мефистофель получит душу Фауста, когда тот возвеличит
-какой-то миг. Оба главных героя считают, что выйдут победителями в споре. В искусстве дьявола
-искушать сомневаться не приходится, и на долю Фауста выпадает множество соблазнов."/>
+            android:text="The work is based on the famous German myth of Dr. Johann.
+Faust, who made a deal with the devil, exchanging his soul for worldly pleasures and eternal
+youth. Under the terms of the agreement, Mephistopheles will receive the soul of Faust when he magnifies
+for a moment. Both protagonists believe that they will emerge victorious in the dispute. In the art of the devil
+tempt no doubt, and the share of Faust falls many temptations."/>
 
     </RelativeLayout>
 </ScrollView>
